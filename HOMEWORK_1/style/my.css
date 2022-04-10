@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column; /* вертикально */
+    align-items: center;  /* flex-end- по правому краю flex-start - по лівому */
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-size: 19px;
+    /*border: 2px solid red;*/
+    background-image: url(../style/back.jpg);
+    color: Beige;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: olive;
+    font-family: Andale Mono, monospace;
+}
+
+.titans {
+    margin: 70px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 57%;
+    align-items: center;
+}
+
+.levi_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header1 {
+    width: 85%;
+}
+
+.test1 {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    font-size: 20px;
+    margin: 20px
+}
+
+.levi_text {
+    font-size: 25px;
+    width: 47%;
+    text-align: justify;
+}
+
+.div_main_left {
+    font-size: 25px;
+    align-items: flex-start;
+    width: 47%;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    font-size: 29px;
+}
+
+.levi_story {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    font-size: 25px;
+    line-height: 1.5; /*міжрядковий інтервал*/
+    text-align: justify;
+
+}
+
+a {
+    color: maroon;
+}
+
+a:visited {
+    color: olive;
+   }
+
+a:active {
+    color: maroon;
+}
+
+.look {
+    float:right;
+    margin: 15px 15px 15px 0;
+   }
+
+.person {
+    float: left;
+    margin: 30px 30px 30px 0;
+    box-shadow: 0px 0px 5px beige;
+}
+
+.izabel {
+    float:right;
+    margin: 7px 7px 7px 20px;
+    box-shadow: 0px 0px 5px beige;
+   }
+
+.levi {
+     box-shadow: 0 0 5px white;
+}
+
+.titans {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    /*position: fixed;  Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: peru; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+footer a {
+    color: maroon;
+    margin-left: 15px;
+}
+
+footer a:visited {
+    color: FireBrick;
+}
+
+.images:hover {
+    transition: transform .6s ease;
+    transform: scale(1.25);
+} /*збільшення при наведенні*/
+
+
+
+
+

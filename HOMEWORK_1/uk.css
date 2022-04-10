@@ -1,0 +1,139 @@
+body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0px;
+     padding: 0px;
+
+}
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.upper_menu {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size : 12px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+.text {
+    margin: 10px;
+    color: black;
+    text-decoration: none; /*ссилка без підкреслення*/
+
+
+}
+.middle_menu {
+    display: flex;
+    background: maroon;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+}
+
+
+.start_of_middle {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    margin-left: 13%;
+
+}
+.end_of_middle {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    margin-right: 13%;
+}
+
+
+
+
+
+.icon_menu {
+    width: 25px;
+    height: 0px;
+    background: white;
+    margin: 2px;
+    padding: 2px;
+
+}
+.middle_of_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+
+
+
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: flex-end; /* рівняє по вертикалі*/
+
+}
+.upper_middle, .lower_middle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center; /* рівняє текст або ел, по горизонталі*/
+}
+.lang {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+    width: 125px;
+
+}
+
+.club {
+    display: flex;
+    border: 3px solid white;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background: #dc143c;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}.all {
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Impact, fantasy;
+
+}
+.upper_middle {
+    font-size: 30px;
+    font-family: britannic bold;
+    font-stretch: ultra-condensed;
+}
+.lower_middle {
+    font-size: 13px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.bottom_menu {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size : 15px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+}
+.text1 {
+margin: 10px;
+    color: maroon;
+    text-decoration: none;
+}
